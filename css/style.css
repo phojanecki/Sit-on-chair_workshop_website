@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-bold-webfont.eot');
+    src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bold-webfont.woff') format('woff'),
+         url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-bolditalic-webfont.eot');
+    src: url('../fonts/raleway-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/raleway-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-bolditalic-webfont.svg#ralewaybold_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway-italic-webfont.eot');
+    src: url('../fonts/raleway-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-italic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-italic-webfont.woff') format('woff'),
+         url('../fonts/raleway-italic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-italic-webfont.svg#ralewayitalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../raleway-regular-webfont.eot');
+    src: url('../raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-regular-webfont.woff') format('woff'),
+         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* HEADER */
+
+.main_width1 {
+    width: 70%;
+    height: 30px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: "raleway", sans-serif;
+    color: white;
+    margin: 5px 0px 0 80px;
+    float: left;
+    font-weight: 300;
+}
+
+span {
+    color: #23ba9c;
+    font-weight: 600;
+}
+#menu {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    float: right;
+    letter-spacing: 1px;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 5px 60px 0 0;
+    font-weight: 600;
+}
+
+/* SEKCJA 1 */
+
+.main_width2 {
+    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+    
+    background: rgba(254,254,254,1);
+    background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(97%, rgba(209,209,209,1)), color-stop(100%, rgba(226,226,226,1)));
+    background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
+    background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
+    background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );
+}
+
+.arrow_left {
+    font-size: 60px;
+    font-family: Raleway, sans-serif;
+    color: #23ba9c;
+    margin: 120px 0 0 50px;
+    float: left;
+}
+
+.arrow_right {
+    font-size: 60px;
+    font-family: Raleway, sans-serif;
+    color: #23ba9c;
+    margin: 120px 50px 0 0px;
+    float: right; 
+}
+
+h1, p {
+    margin: 50px 30px 30px 0;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    word-spacing: 2px;
+    margin: 0 30px 20px 0;
+}
+
+.content1 {
+    width: 400px;
+    height: 350px;
+    float: right;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.content1__text {
+    width: 100%;
+}
+
+.chair {
+    width: 500px;
+    height: 350px;
+    float: left;
+}
+
+.see_more {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 35px 0 0 65px;
+    padding-top: 12px;
+    color: white;
+    font-family: Raleway, sans-serif;
+    background-color: #23ba9c;
+    font-size: 20px;
+    
+}
+
+/* SEKCJA 2 */
+
+.main_width3 {
+    width: 70%;
+    height: 230px;
+    margin: 0 auto;    
+}
+
+.box1 {
+    background-image: url(../imagesOk/box1_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    width: 30%;
+    height: 180px;
+    margin-top: 15px;
+}
+
+.box2 {
+    background-image: url(../imagesOk/box2_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    width: 30%;
+    height: 180px;
+    margin-top: 15px;
+}
+
+.box3 {
+    float: left;
+    width: 40%;
+    height: 180px;
+    margin-top: 15px;
+}
+
+/* POZIOMĄ LINIĘ ZIELONĄ ZROBIĆ ZA POMOCĄ <HR> */
+
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;   
+}
+
+.box_name2 {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.box_content {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    text-decoration-color: underline #23ba9c;
+    
+}
