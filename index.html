@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Warsztat 1.5</title>
+    <link rel="fonts" href="css/stylesheet.css"> <!--Czcionka się nie ładuje-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -21,18 +22,17 @@
     </header>
     
 <!-- SEKCJA 1 -->
+<div class="clearBoth"></div>  
     
     <section>
         <div class="main_width2">
-            <div class="arrow_left"><</div>
-            <div class="arrow_right">></div>
-            <div class="chair">
-                <img src="imagesOk/black_chair.png">
-            </div>
+            <div class="arrow_left">&lt;</div>
+            <div class="arrow_right">&gt;</div>
+            <div class="chair"></div>
             <div class="content1">
                 <div class="content1__text">
                     <h1>SIT <span>ON</span> OUR <span>CHAIR</span></h1>
-                    <p>
+                    <p class="paraSection1">
                         Nunc vel ligula dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Praesent semper dolor eros, vulputate bibendum nulla viverra ac.
                     </p>
                     <div class="see_more">ZOBACZ WIĘCEJ</div>
@@ -42,26 +42,98 @@
     </section>
         
 <!-- SEKCJA 2 -->
+<!--<div class="clearBoth"></div>  -->
         
         <section>
             <div class="main_width3">
                 <div class="box1">
-                    <div class="box_name1">Chair CLAIR</div>
+                    <div class="box_name">
+                        Chair CLAIR
+                        <hr class="hrShort">
+                    </div>
+                    
                 </div>
                 <div class="box2">
-                    <div class="box_name2">Chair MARGARITA</div>
+                    <div class="box_name">
+                        Chair MARGARITA
+                        <hr class="hrShort">
+                    </div>
                 </div>
                 <div class="box3"> 
                     <div class="box_content">
                         <h2>Finds all inputs</h2>
-                        <p>
-                            Jelly beans pastry candy chocolate cake cake macaroon candy canes sweet roll jujubes. Apple pie ice cream sugar plum brownie. Lollipop cake chocolate cake candy icing icing soufflé jelly beans marzipan. Marshmallow candy canes marzipan halvah croissant danish.
-                        
+                        <hr class="hrBox3">
+                        <p class="paraSection2">
+                            Jelly beans pastry candy chocolate cake cake macaroon candy canes sweet roll jujubes. Apple pie ice cream sugar plum brownie. Lollipop cake chocolate cake candy icing icing soufflé jelly beans. 
+                                <br><br>
                             Chocolate cake croissant tiramisu chocolate cake topping gummies. Tart cupcake dessert. Cake tart bear claw cookie.
                         </p>
                     </div>
                 </div>
             </div>
+        </section>
+<!--<div class="clearBoth"></div> -->
+
+<!-- SEKCJA 3 -->
+        
+        <section id="section3">
+            <div class="mainWidth4">
+                <header class="headerSection3">
+                    <p class="paraSection3">CENNIK</p>
+                    <hr class="hrLong">
+                </header>
+                
+                <div class="boxPlan">
+                    <div class="circle">
+                        <div class="circleFull"></div>
+                    </div>
+                    <div class="planName">
+                        <p>BASIC PLAN</p>
+                    </div>
+                    <div class="circlePrice">
+                        <p class="price">85<span class="superscript">99</span></p>
+                        <p class="plnMsc">PLN/MSC</p>
+                    </div>
+                    <div class="offer">Zakup towaru + dowóz</div>
+                    <div class="offer">Serwis</div>
+                    <div class="joinButton">DOŁĄCZ</div>
+                </div>
+                
+                <div class="boxPlan2">
+                    <div class="circle2">
+                        <div class="circleFull2"></div>
+                    </div>
+                    <div class="planName2">
+                        <p>STANDARD PLAN</p>
+                    </div>
+                    <div class="circlePrice2">
+                        <p class="price2">95<span class="superscript2">99</span></p>
+                        <p class="plnMsc2">PLN/MSC</p>
+                    </div>
+                    <div class="offer2">Zakup towaru + dowóz</div>
+                    <div class="offer2">Serwis</div>
+                    <div class="offer2">Gwarancja 5 lat</div>
+                    <div class="joinButton2">DOŁĄCZ</div>
+                </div>
+                
+                <div class="boxPlan3">
+                    <div class="circle3">
+                        <div class="circleFull3"></div>
+                    </div>
+                    <div class="planName3">
+                        <p>ADVANCE PLAN</p>
+                    </div>
+                    <div class="circlePrice3">
+                        <p class="price3">211<span class="superscript3">99</span></p>
+                        <p class="plnMsc3">PLN/MSC</p>
+                    </div>
+                    <div class="offer3">Zakup towaru + dowóz</div>
+                    <div class="offer3">Serwis</div>
+                    <div class="offer3">Gwarancja 5 lat</div>
+                    <div class="offer3">Porady projektanta</div>
+                    <div class="joinButton3">DOŁĄCZ</div>
+                </div>
+            </div>      
         </section>
 </body>
 </html>

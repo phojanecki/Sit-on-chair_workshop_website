@@ -1,57 +1,12 @@
-@font-face {
-    font-family: 'raleway';
-    src: url('../fonts/raleway-bold-webfont.eot');
-    src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-bold-webfont.woff') format('woff'),
-         url('../fonts/raleway-bold-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'raleway';
-    src: url('../fonts/raleway-bolditalic-webfont.eot');
-    src: url('../fonts/raleway-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-bolditalic-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-bolditalic-webfont.woff') format('woff'),
-         url('../fonts/raleway-bolditalic-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-bolditalic-webfont.svg#ralewaybold_italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-@font-face {
-    font-family: 'raleway';
-    src: url('../fonts/raleway-italic-webfont.eot');
-    src: url('../fonts/raleway-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-italic-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-italic-webfont.woff') format('woff'),
-         url('../fonts/raleway-italic-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-italic-webfont.svg#ralewayitalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-
-}
-
-@font-face {
-    font-family: 'raleway';
-    src: url('../raleway-regular-webfont.eot');
-    src: url('../raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
-         url('../fonts/raleway-regular-webfont.woff') format('woff'),
-         url('../fonts/raleway-regular-webfont.ttf') format('truetype'),
-         url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 /* HEADER */
 
+.clearBoth {
+    clear: both;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
 .main_width1 {
     width: 70%;
     height: 30px;
@@ -60,7 +15,7 @@
 }
 
 .logo {
-    font-family: "raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     color: white;
     margin: 5px 0px 0 80px;
     float: left;
@@ -103,7 +58,7 @@ span {
 
 .arrow_left {
     font-size: 60px;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #23ba9c;
     margin: 120px 0 0 50px;
     float: left;
@@ -111,29 +66,30 @@ span {
 
 .arrow_right {
     font-size: 60px;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #23ba9c;
     margin: 120px 50px 0 0px;
     float: right; 
 }
 
-h1, p {
-    margin: 50px 30px 30px 0;
+h1, paraSection1 {
+    margin: 50px 30px 20px 0;
 }
 
 
 h1 {
     text-align: center;
     font-size: 30px;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: bold;
 }
 
-p {
+.paraSection1 {
     text-align: center;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     word-spacing: 2px;
     margin: 0 30px 20px 0;
+    font-size: 16px;
 }
 
 .content1 {
@@ -150,6 +106,10 @@ p {
 }
 
 .chair {
+    background-image: url(../imagesOk/black_chair.png);
+    background-position: center;
+    background-size: 550px 350px;
+    background-repeat: no-repeat;
     width: 500px;
     height: 350px;
     float: left;
@@ -163,7 +123,7 @@ p {
     margin: 35px 0 0 65px;
     padding-top: 12px;
     color: white;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     background-color: #23ba9c;
     font-size: 20px;
     
@@ -174,59 +134,435 @@ p {
 .main_width3 {
     width: 70%;
     height: 230px;
-    margin: 0 auto;    
+    margin: 0 auto;
+/*    border: 1px solid green;*/
 }
 
 .box1 {
     background-image: url(../imagesOk/box1_img.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     float: left;
-    width: 30%;
+    width: 28%;
     height: 180px;
-    margin-top: 15px;
+    margin: 15px 20px 0 40px;
+    border: 2px solid #d9d9d9;    
+}
+
+.box_name {
+    margin: 110px 0 0 0;
+    padding: 10px 0 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, .3);
+/*    border: 1px solid green;*/
+}
+
+.hrShort {
+    border: 3px solid #23ba9c;
+    width: 60%;
+    margin: 0 0 20px 0;
 }
 
 .box2 {
     background-image: url(../imagesOk/box2_img.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     float: left;
-    width: 30%;
+    width: 28%;
     height: 180px;
-    margin-top: 15px;
+    margin: 15px 20px 0 15px;
+    border: 2px solid #d9d9d9;
 }
 
 .box3 {
     float: left;
-    width: 40%;
-    height: 180px;
-    margin-top: 15px;
+    width: 28%;
+    height: 200px;
+    margin: 15px 0 0 15px;
+    border: 2px solid #d9d9d9;
 }
 
-/* POZIOMĄ LINIĘ ZIELONĄ ZROBIĆ ZA POMOCĄ <HR> */
-
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    text-decoration: underline;   
-}
-
-.box_name2 {
-    font-family: Raleway, sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
+.hrBox3 {
+    border: 3px solid #23ba9c;
+    width: 45%;
+    margin: 0 0 20px 10px;
 }
 
 .box_content {
-    font-family: Raleway, sans-serif;
     font-weight: bold;
 }
 
 h2 {
-    font-family: Raleway, sans-serif;
     font-weight: bold;
     text-decoration-color: underline #23ba9c;
+    margin: 10px 0 0 10px;   
+}
+
+.paraSection2 {
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+}
+
+/* SEKCJA 3*/
+
+#section3 {
+    width: 100%;
+    height: 500px;
+    background-color: #f0f0f0
+}
+
+.mainWidth4 {
+    width: 70%;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+/*    border: 1px solid green;  */
     
+}
+
+/* Pierwsza oferta */
+
+.boxPlan {
+    border: 2px solid #d9d9d9;
+    background-color: white;
+    width: 28%;
+    height: 500px;
+    margin: 80px 20px 0 40px;
+    float: left;
+    display: inline-block;
+}
+
+.circle {
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: -30px 0 0 125px;
+    background-color: white;
+}
+
+.circleFull {
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 13px 0 0 13px;
+    background-color: #c2c2c2; 
+}
+
+.planName {
+    position: relative;
+    margin-top: 40px;
+    color: #c2c2c2;
+}
+
+.planName p {
+    font-size: 20px;
+    text-align: center;
+    color: #23ba9c;
+}
+
+.circlePrice {
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px 0 0 85px;
+    background-color: white; 
+}
+
+.price {
+    font-size: 60px;
+    text-align: center;
+    color: #c2c2c2;
+    margin-top: 20px;
+}
+
+.superscript {
+    vertical-align: super;
+    font-size: 20px;
+    color: #c2c2c2;
+}
+
+.plnMsc {
+    font-size: 16px;
+    color: #c2c2c2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.offer {
+    float:left;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    color: #737373;
+}
+
+.offer:nth-child(2n+1) {
+    background-color: white;
+}
+
+.offer:nth-child(2n+2) {
+    background-color: #c2c2c2;
+}
+
+.paraSection3{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 0 40px; 
+    padding-top: 30px;
+}
+
+.hrLong {
+    border: 3px solid #23ba9c;
+    width: 30%;
+    margin: 0 0 0 40px;
+}
+
+.joinButton {
+    float: left;
+    background-color: #23ba9c;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 89px 0 0 80px;
+    color: white;
+    padding-top: 10px;
+}
+
+/* Druga oferta */
+
+.boxPlan2 {
+    border: 2px solid #23ba9c;
+    background-color: #23ba9c;
+    width: 28%;
+    height: 500px;
+    margin: 80px 30px 0 0;
+    float: left;
+    color: #737373;
+}
+
+.circle2 {
+    border: 2px solid #23ba9c;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: -30px 0 0 125px;
+    background-color: #23ba9c;
+}
+
+.circleFull2 {
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 13px 0 0 13px;
+    background-color: white; 
+}
+
+.planName2 {
+    position: relative;
+    margin-top: 40px;
+    color: #c2c2c2;
+}
+
+.planName2 p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.circlePrice2 {
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px 0 0 85px;
+    background-color: white; 
+}
+
+.price2 {
+    font-size: 60px;
+    text-align: center;
+    color: #23ba9c;
+    margin-top: 20px;
+}
+
+.superscript2 {
+    vertical-align: super;
+    font-size: 20px;
+    color: #23ba9c;
+}
+
+.plnMsc2 {
+    font-size: 16px;
+    color: #23ba9c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.offer2 {
+    float:left;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.offer2:nth-child(2n+1) {
+    background-color: #e3e3e3;
+}
+
+.offer2:nth-child(2n+2) {
+    background-color: white;
+}
+
+.joinButton2 {
+    float: left;
+    background-color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 45px 0 0 80px;
+    color: #23ba9c;
+    padding-top: 10px;
+}
+
+/* Trzecia oferta */
+
+
+.boxPlan3 {
+    border: 2px solid #d9d9d9;
+    background-color: white;
+    width: 28%;
+    height: 500px;
+    margin: 80px 20px 0 0px;
+    float: left;
+    display: inline-block;
+}
+
+.circle3 {
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    margin: -30px 0 0 125px;
+    background-color: white;
+}
+
+.circleFull3 {
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin: 13px 0 0 13px;
+    background-color: #c2c2c2; 
+}
+
+.planName3 {
+    position: relative;
+    margin-top: 40px;
+    color: #c2c2c2;
+}
+
+.planName3 p {
+    font-size: 20px;
+    text-align: center;
+    color: #23ba9c;
+}
+
+.circlePrice3 {
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 30px 0 0 85px;
+    background-color: white; 
+}
+
+.price3 {
+    font-size: 60px;
+    text-align: center;
+    color: #c2c2c2;
+    margin-top: 20px;
+}
+
+.superscript3 {
+    vertical-align: super;
+    font-size: 20px;
+    color: #c2c2c2;
+}
+
+.plnMsc3 {
+    font-size: 16px;
+    color: #c2c2c2;
+    text-align: center;
+    font-weight: bold;
+}
+
+.offer3 {
+    float:left;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+    color: #737373;
+}
+
+.offer3:nth-child(2n+1) {
+    background-color: white;
+}
+
+.offer3:nth-child(2n+2) {
+    background-color: #c2c2c2;
+}
+
+.joinButton3 {
+    float: left;
+    background-color: #23ba9c;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 0 0 80px;
+    color: white;
+    padding-top: 10px;
 }
