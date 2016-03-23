@@ -10,32 +10,42 @@ body {
 .main_width1 {
     width: 70%;
     height: 30px;
-    background-color: black;
     margin: 0 auto;
+
+    background-color: black;
 }
 
 .logo {
-    font-family: "Raleway", sans-serif;
-    color: white;
-    margin: 5px 0px 0 80px;
     float: left;
+
+    margin: 5px 0px 0 80px;
+
+    color: white;
+
+    font-family: "Raleway", sans-serif;
     font-weight: 300;
 }
 
 span {
     color: #23ba9c;
+
     font-weight: 600;
 }
 #menu {
-    font-family: "Raleway", sans-serif;
-    color: white;
     float: right;
+
     letter-spacing: 1px;
+
+    color: white;
+
+    font-family: "Raleway", sans-serif;
 }
 
 #menu li {
     display: inline-block;
+
     margin: 5px 60px 0 0;
+
     font-weight: 600;
 }
 
@@ -45,7 +55,7 @@ span {
     width: 70%;
     height: 350px;
     margin: 0 auto;
-    
+
     background: rgba(254,254,254,1);
     background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(50%, rgba(219,219,219,1)), color-stop(97%, rgba(209,209,209,1)), color-stop(100%, rgba(226,226,226,1)));
@@ -53,23 +63,30 @@ span {
     background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
     background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
     background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 97%, rgba(226,226,226,1) 100%);
+
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2', GradientType=0 );
 }
 
 .arrow_left {
-    font-size: 60px;
-    font-family: "Raleway", sans-serif;
-    color: #23ba9c;
-    margin: 120px 0 0 50px;
     float: left;
+
+    margin: 120px 0 0 50px;
+
+    color: #23ba9c;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
 }
 
 .arrow_right {
-    font-size: 60px;
-    font-family: "Raleway", sans-serif;
-    color: #23ba9c;
+    float: right;
+
     margin: 120px 50px 0 0px;
-    float: right; 
+
+    color: #23ba9c;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
 }
 
 h1, paraSection1 {
@@ -79,24 +96,29 @@ h1, paraSection1 {
 
 h1 {
     text-align: center;
-    font-size: 30px;
+
     font-family: "Raleway", sans-serif;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .paraSection1 {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    word-spacing: 2px;
     margin: 0 30px 20px 0;
+
+    text-align: center;
+    word-spacing: 2px;
+
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
 }
 
 .content1 {
+    display:flex;
+    float: right;
+
     width: 400px;
     height: 350px;
-    float: right;
-    display:flex;
+
     justify-content:center;
     align-items:center;
 }
@@ -106,89 +128,104 @@ h1 {
 }
 
 .chair {
-    background-image: url(../imagesOk/black_chair.png);
-    background-position: center;
-    background-size: 550px 350px;
-    background-repeat: no-repeat;
+    float: left;
+
     width: 500px;
     height: 350px;
-    float: left;
+
+    background-image: url(../imagesOk/black_chair.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 550px 350px;
 }
 
 .see_more {
     width: 250px;
     height: 50px;
-    text-align: center;
-    border-radius: 10px;
     margin: 35px 0 0 65px;
     padding-top: 12px;
+
+    text-align: center;
+
     color: white;
-    font-family: "Raleway", sans-serif;
+    border-radius: 10px;
     background-color: #23ba9c;
+
+    font-family: "Raleway", sans-serif;
     font-size: 20px;
-    
+
 }
 
 /* SEKCJA 2 */
 
 .main_width3 {
     width: 70%;
-    height: 230px;
+    height: 330px;
     margin: 0 auto;
 /*    border: 1px solid green;*/
 }
 
 .box1 {
-    background-image: url(../imagesOk/box1_img.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     float: left;
+
     width: 28%;
-    height: 180px;
+    height: 240px;
     margin: 15px 20px 0 40px;
-    border: 2px solid #d9d9d9;    
+
+    border: 2px solid #d9d9d9;
+    background-image: url(../imagesOk/box1_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .box_name {
-    margin: 110px 0 0 0;
-    padding: 10px 0 0 15px;
-    font-weight: bold;
-    font-size: 18px;
+    margin: 140px 0 0 0;
+    padding: 20px 0 10px 15px;
+
     background-color: rgba(255, 255, 255, .3);
+
+    font-size: 18px;
+    font-weight: bold;
 /*    border: 1px solid green;*/
 }
 
 .hrShort {
-    border: 3px solid #23ba9c;
     width: 60%;
     margin: 0 0 20px 0;
+
+    border: 3px solid #23ba9c;
 }
 
 .box2 {
-    background-image: url(../imagesOk/box2_img.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     float: left;
+
     width: 28%;
-    height: 180px;
+    height: 240px;
     margin: 15px 20px 0 15px;
-    border: 2px solid #d9d9d9;
+
+    border: 2px solid #d9d9d9;
+    background-image: url(../imagesOk/box2_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .box3 {
     float: left;
+
     width: 28%;
-    height: 200px;
+    height: 260px;
     margin: 15px 0 0 15px;
+
     border: 2px solid #d9d9d9;
 }
 
 .hrBox3 {
-    border: 3px solid #23ba9c;
     width: 45%;
     margin: 0 0 20px 10px;
+
+    border: 3px solid #23ba9c;
 }
 
 .box_content {
@@ -196,21 +233,25 @@ h1 {
 }
 
 h2 {
+    margin: 10px 0 0 10px;
+
     font-weight: bold;
+
     text-decoration-color: underline #23ba9c;
-    margin: 10px 0 0 10px;   
 }
 
 .paraSection2 {
-    font-size: 12px;
     margin: 0 10px 0 10px;
+
+    font-size: 12px;
 }
 
 /* SEKCJA 3*/
 
 #section3 {
     width: 100%;
-    height: 500px;
+    height: 680px;
+
     background-color: #f0f0f0
 }
 
@@ -218,99 +259,126 @@ h2 {
     width: 70%;
     height: 700px;
     margin: 0 auto;
+
     background-color: #f0f0f0;
 /*    border: 1px solid green;  */
-    
+
 }
 
 /* Pierwsza oferta */
 
 .boxPlan {
-    border: 2px solid #d9d9d9;
-    background-color: white;
+    display: inline-block;
+    float: left;
+
     width: 28%;
     height: 500px;
     margin: 80px 20px 0 40px;
-    float: left;
-    display: inline-block;
+
+    border: 2px solid #d9d9d9;
+    background-color: white;
 }
 
 .circle {
-    border: 2px solid #d9d9d9;
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 60px;
     height: 60px;
-    position: relative;
     margin: -30px 0 0 125px;
+
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
     background-color: white;
 }
 
 .circleFull {
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 30px;
     height: 30px;
-    position: relative;
     margin: 13px 0 0 13px;
-    background-color: #c2c2c2; 
+
+    border-radius: 50%;
+    background-color: #c2c2c2;
 }
 
 .planName {
     position: relative;
+
     margin-top: 40px;
+
     color: #c2c2c2;
 }
 
 .planName p {
-    font-size: 20px;
     text-align: center;
+
     color: #23ba9c;
+
+    font-size: 20px;
 }
 
 .circlePrice {
-    border: 2px solid #d9d9d9;
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 150px;
     height: 150px;
-    position: relative;
     margin: 30px 0 0 85px;
-    background-color: white; 
+
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .price {
-    font-size: 60px;
-    text-align: center;
-    color: #c2c2c2;
     margin-top: 20px;
+
+    text-align: center;
+
+    color: #c2c2c2;
+
+    font-size: 60px;
 }
 
 .superscript {
     vertical-align: super;
-    font-size: 20px;
+
     color: #c2c2c2;
+
+    font-size: 20px;
 }
 
 .plnMsc {
-    font-size: 16px;
-    color: #c2c2c2;
     text-align: center;
+
+    color: #c2c2c2;
+
+    font-size: 16px;
     font-weight: bold;
 }
 
 .offer {
     float:left;
+
     width: 100%;
     height: 45px;
-    font-size: 20px;
+    padding-top: 10px;
+
     text-align: center;
     vertical-align: middle;
-    padding-top: 10px;
+
     color: #737373;
+
+    font-size: 20px;
 }
 
 .offer:nth-child(2n+1) {
@@ -322,118 +390,148 @@ h2 {
 }
 
 .paraSection3{
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0 0 0 40px; 
+    margin: 0 0 0 40px;
     padding-top: 30px;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .hrLong {
-    border: 3px solid #23ba9c;
     width: 30%;
     margin: 0 0 0 40px;
+
+    border: 3px solid #23ba9c;
 }
 
 .joinButton {
     float: left;
-    background-color: #23ba9c;
+
     width: 140px;
     height: 40px;
-    border-radius: 10px;
-    text-align: center;
     margin: 89px 0 0 80px;
-    color: white;
     padding-top: 10px;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 10px;
+    background-color: #23ba9c;
 }
 
 /* Druga oferta */
 
 .boxPlan2 {
-    border: 2px solid #23ba9c;
-    background-color: #23ba9c;
+    float: left;
+
     width: 28%;
     height: 500px;
     margin: 80px 30px 0 0;
-    float: left;
-    color: #737373;
+
+    color: #737373;
+    border: 2px solid #23ba9c;
+    background-color: #23ba9c;
 }
 
 .circle2 {
-    border: 2px solid #23ba9c;
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 60px;
     height: 60px;
-    position: relative;
     margin: -30px 0 0 125px;
+
+    border: 2px solid #23ba9c;
+    border-radius: 50%;
     background-color: #23ba9c;
 }
 
 .circleFull2 {
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 30px;
     height: 30px;
-    position: relative;
     margin: 13px 0 0 13px;
-    background-color: white; 
+
+    border-radius: 50%;
+    background-color: white;
 }
 
 .planName2 {
     position: relative;
+
     margin-top: 40px;
+
     color: #c2c2c2;
 }
 
 .planName2 p {
-    font-size: 20px;
     text-align: center;
+
     color: white;
+
+    font-size: 20px;
 }
 
 .circlePrice2 {
-    border: 2px solid #d9d9d9;
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 150px;
     height: 150px;
-    position: relative;
     margin: 30px 0 0 85px;
-    background-color: white; 
+
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .price2 {
-    font-size: 60px;
-    text-align: center;
-    color: #23ba9c;
     margin-top: 20px;
+
+    text-align: center;
+
+    color: #23ba9c;
+
+    font-size: 60px;
 }
 
 .superscript2 {
     vertical-align: super;
-    font-size: 20px;
+
     color: #23ba9c;
+
+    font-size: 20px;
 }
 
 .plnMsc2 {
-    font-size: 16px;
-    color: #23ba9c;
     text-align: center;
+
+    color: #23ba9c;
+
+    font-size: 16px;
     font-weight: bold;
 }
 
 .offer2 {
     float:left;
+
     width: 100%;
     height: 45px;
-    font-size: 20px;
+    padding-top: 10px;
+
     text-align: center;
     vertical-align: middle;
-    padding-top: 10px;
+
+    font-size: 20px;
 }
 
 .offer2:nth-child(2n+1) {
@@ -446,105 +544,134 @@ h2 {
 
 .joinButton2 {
     float: left;
-    background-color: white;
+
     width: 140px;
     height: 40px;
-    border-radius: 10px;
-    text-align: center;
     margin: 45px 0 0 80px;
-    color: #23ba9c;
     padding-top: 10px;
+
+    text-align: center;
+
+    color: #23ba9c;
+    border-radius: 10px;
+    background-color: white;
 }
 
 /* Trzecia oferta */
 
 
 .boxPlan3 {
-    border: 2px solid #d9d9d9;
-    background-color: white;
+    display: inline-block;
+    float: left;
+
     width: 28%;
     height: 500px;
     margin: 80px 20px 0 0px;
-    float: left;
-    display: inline-block;
+
+    border: 2px solid #d9d9d9;
+    background-color: white;
 }
 
 .circle3 {
-    border: 2px solid #d9d9d9;
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 60px;
     height: 60px;
-    position: relative;
     margin: -30px 0 0 125px;
+
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
     background-color: white;
 }
 
 .circleFull3 {
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 30px;
     height: 30px;
-    position: relative;
     margin: 13px 0 0 13px;
-    background-color: #c2c2c2; 
+
+    border-radius: 50%;
+    background-color: #c2c2c2;
 }
 
 .planName3 {
     position: relative;
+
     margin-top: 40px;
+
     color: #c2c2c2;
 }
 
 .planName3 p {
-    font-size: 20px;
     text-align: center;
+
     color: #23ba9c;
+
+    font-size: 20px;
 }
 
 .circlePrice3 {
-    border: 2px solid #d9d9d9;
-    border-radius: 50%;
     position: relative;
+    position: relative;
+
     float: left;
+
     width: 150px;
     height: 150px;
-    position: relative;
     margin: 30px 0 0 85px;
-    background-color: white; 
+
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .price3 {
-    font-size: 60px;
-    text-align: center;
-    color: #c2c2c2;
     margin-top: 20px;
+
+    text-align: center;
+
+    color: #c2c2c2;
+
+    font-size: 60px;
 }
 
 .superscript3 {
     vertical-align: super;
-    font-size: 20px;
+
     color: #c2c2c2;
+
+    font-size: 20px;
 }
 
 .plnMsc3 {
-    font-size: 16px;
-    color: #c2c2c2;
     text-align: center;
+
+    color: #c2c2c2;
+
+    font-size: 16px;
     font-weight: bold;
 }
 
 .offer3 {
     float:left;
+
     width: 100%;
     height: 45px;
-    font-size: 20px;
+    padding-top: 10px;
+
     text-align: center;
     vertical-align: middle;
-    padding-top: 10px;
+
     color: #737373;
+
+    font-size: 20px;
 }
 
 .offer3:nth-child(2n+1) {
@@ -557,12 +684,178 @@ h2 {
 
 .joinButton3 {
     float: left;
-    background-color: #23ba9c;
+
     width: 140px;
     height: 40px;
-    border-radius: 10px;
-    text-align: center;
     margin: 0 0 0 80px;
-    color: white;
     padding-top: 10px;
+
+    text-align: center;
+
+    color: white;
+    border-radius: 10px;
+    background-color: #23ba9c;
+}
+
+/* SEKCJA 4 */
+
+#section4 {
+    width: 100%;
+    height: 550px;
+
+    background-color: white;
+    /*border: 1px solid green;*/
+  }
+
+.mainWidth5 {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+
+    background-color: white;
+    /*border: 1px solid green;*/
+}
+
+.paraSection4{
+    margin: 0 0 0 40px;
+    padding-top: 30px;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hrLong {
+    width: 30%;
+    margin: 0 0 0 40px;
+
+    border: 3px solid #23ba9c;
+}
+
+/* FORMULARZ */
+
+.form1 input {
+  width: 600px;
+  height: 50px;
+  margin: 30px 0 0 35px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  /*border: 1px solid green;*/
+}
+
+.form1 input:nth-child(1n+3) {
+  height: 200px;
+}
+
+.redChair {
+  background-image: url(../imagesOk/red_chair.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 200px;
+  float: left;
+  display: inline-block;
+  position: absolute;
+  /*border: 1px solid blue;*/
+  margin: 20px 0 0 80px;
+}
+
+.checkbox {
+  width: 50px;
+  height: 50px;
+  float: left;
+  display: inline-block;
+  margin: 85px 0 0 60px;
+}
+
+.checkboxText {
+  float: left;
+  margin: 90px 0 0 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #a19f9f;
+}
+
+.form2 input:last-child {
+    float: left;
+
+    width: 250px;
+    height: 60px;
+    margin: 320px 0 0 75px;
+    padding-top: 5px;
+
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    background-color: #23ba9c;
+    position: absolute;
+}
+
+/* FOOTER */
+
+.mainWidth6 {
+  margin: 0 auto;
+  width: 70%;
+  height: 50px;
+  /*border: 1px solid green;*/
+}
+
+.copyrights p {
+  font-family: "Raleway", sans-serif;
+  font-size: 12x;
+  color: #a19f9f;
+  float: left;
+  margin-top: 15px;
+}
+
+.media ul li {
+  float: left;
+  display: inline-block;
+}
+
+.media ul li:first-child{
+  margin-left: 400px;
+}
+
+.flickr {
+  width: 35px;
+  height: 35px;
+  background-image: url(../imagesOk/flickr.png);
+}
+
+.vimeo {
+  width: 35px;
+  height: 35px;
+  background-image: url(../imagesOk/vimeo.png);
+}
+
+.pinterest {
+  width: 35px;
+  height: 35px;
+  background-image: url(../imagesOk/pinterest.png);
+}
+
+.twitter {
+  width: 35px;
+  height: 35px;
+  background-image: url(../imagesOk/twitter.png);
+}
+
+.logoFooter {
+  float: right;
+  color: grey;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  word-spacing: 5px;
+  margin-top: 15px;
+}
+
+.logoFooterSpan {
+  font-weight: bold;
+  color: grey;
 }
